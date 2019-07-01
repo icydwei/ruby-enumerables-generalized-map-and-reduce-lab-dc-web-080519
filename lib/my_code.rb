@@ -22,5 +22,5 @@ def reduce(source_array, starting_value=nil)
     total = yield(total, source_array[counter])
     counter +=1
   end
-  return truth
+  return total
 end

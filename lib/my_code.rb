@@ -19,7 +19,7 @@ def reduce(source_array, starting_value=nil)
     counter = 1
   end
   while counter < source_array.length do
-    total = yield(truth, source_array[counter])
+    total = yield(total, source_array[counter])
     counter +=1
   end
   return truth

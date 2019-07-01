@@ -11,7 +11,7 @@ end
 
 
 def reduce(source_array, starting_value=nil)
-  if starting_value != nil
+  if starting_value 
     total = starting_value
     
   counter = 0

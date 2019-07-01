@@ -15,9 +15,9 @@ def reduce(source_array, starting_value=nil)
     total = starting_value
     counter = 0
   else 
-    
-    
-  counter = 0
+    total = source_array[0]
+    counter = 1
+  end
   while counter < source_array.length do
     truth = yield(truth, source_array[counter])
     counter +=1
